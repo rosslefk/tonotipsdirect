@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 h1,
@@ -8,19 +8,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Merriweather', serif;
+  font-weight: 100px;
 }
-h1,h5{
-  color:#0099CC;
-}
-h6{
-  font-size: 20px
+
+h4{
+  font-size: 18px
 }
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-face.png") no-repeat center center;
+  background: url("../img/bg.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -44,14 +42,22 @@ header.masthead h1 {
   font-size: 2rem;
 }
 
-header.masthead .masthead-icon {
-  max-width: 7rem;
+
+header.masthead .valueprop {
+  background-color:rgba(0,0,0,.2);
+  max-width: 45rem;
+  border-radius: 25px;
+}
+
+header.masthead .top-buffer { 
+  margin-top: 10rem;
+
 }
 
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 6rem;
-    padding-bottom: 10rem;
+    padding-bottom: 4rem;
   }
   header.masthead h1 {
     font-size: 3rem;
