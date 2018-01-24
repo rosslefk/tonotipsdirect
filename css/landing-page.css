@@ -49,9 +49,16 @@ header.masthead .valueprop {
   border-radius: 25px;
 }
 
-header.masthead .top-buffer { 
-  margin-top: 10rem;
-
+@media (min-width: 400px) {
+  header.masthead {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+  header.masthead .top-buffer { 
+  margin-top: 15rem;
 }
 
 @media (min-width: 768px) {
@@ -62,7 +69,10 @@ header.masthead .top-buffer {
   header.masthead h1 {
     font-size: 3rem;
   }
+  header.masthead .top-buffer { 
+  margin-top: 10rem;
 }
+
 
 .showcase .showcase-text {
   padding: 3rem;
