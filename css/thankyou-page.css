@@ -12,19 +12,19 @@ h6 {
   font-weight: 100px;
 }
 
-h4{
-  font-size: 18px
+p.small{
+  line-height: 70%;
 }
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/ty-dog.jpeg") no-repeat center center;
+  background: url("../img/ty-eyes5.png") no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
 }
 
 
@@ -50,14 +50,15 @@ header.masthead .valueprop {
 }
 
 header.masthead .top-buffer { 
-  margin-top: 10rem;
+  margin-top: 25rem;
+  color: white;
 
 }
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 0rem;
-    padding-bottom: 15rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -142,6 +143,6 @@ header.masthead .top-buffer {
 }
 
 footer.footer {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }

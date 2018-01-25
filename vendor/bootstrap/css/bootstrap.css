@@ -3972,6 +3972,7 @@ tbody.collapse.show {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -3989,6 +3990,7 @@ tbody.collapse.show {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 
 .navbar-nav .nav-link {
