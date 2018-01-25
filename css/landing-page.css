@@ -9,7 +9,8 @@ h4,
 h5,
 h6 {
   font-family: 'Merriweather', serif;
-  font-weight: 100px;
+  font-weight: 800px;
+  color:#5fc1a6;
 }
 
 h4{
@@ -18,13 +19,13 @@ h4{
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg.png") no-repeat center center;
+  background: url("../img/blue_scene.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 12rem;
+  padding-bottom: 4rem;
 }
 
 
@@ -63,14 +64,14 @@ header.masthead .valueprop {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 6rem;
+    padding-top: 12rem;
     padding-bottom: 4rem;
   }
   header.masthead h1 {
     font-size: 3rem;
   }
   header.masthead .top-buffer { 
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 

@@ -10,15 +10,16 @@ h5,
 h6 {
   font-family: 'Merriweather', serif;
   font-weight: 100px;
+    color:#5fc1a6;
+}
+p{
+  color:#5b5b5c;
 }
 
-p.small{
-  line-height: 70%;
-}
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/ty-eyes5.png") no-repeat center top;
+  background: url("../img/ty-eyes6.png") no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -44,9 +45,14 @@ header.masthead h1 {
 
 
 header.masthead .valueprop {
-  background-color:rgba(0,0,0,.2);
-  max-width: 45rem;
+  border-style: solid;
+  border-color: #5fc1a6;
   border-radius: 25px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
 }
 
 header.masthead .top-buffer { 
