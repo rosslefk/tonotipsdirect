@@ -19,11 +19,6 @@ h4{
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/blue_scene.png") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   padding-top: 12rem;
   padding-bottom: 4rem;
 }
@@ -50,22 +45,33 @@ header.masthead .valueprop {
   border-radius: 25px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   header.masthead {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    background: url("../img/blue_phone.png") no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   header.masthead h1 {
     font-size: 3rem;
   }
   header.masthead .top-buffer { 
-  margin-top: 15rem;
+  margin-top: 3rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   header.masthead {
     padding-top: 12rem;
     padding-bottom: 4rem;
+    background: url("../img/blue_scene.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   header.masthead h1 {
     font-size: 3rem;
