@@ -30,6 +30,10 @@
   <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4242897.js"></script>
   <!-- End of HubSpot Embed Code -->
 
+  <!--  -->
+  <script src="./js/titanic.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.5.9/bodymovin.min.js"></script>
+
   <body>
 
     <!-- Navigation -->
@@ -47,10 +51,12 @@
           <div class="col-xl-9 mx-auto">
             <h2>Your eyes are unique.<br/>Your drops should be, too.</h2>
             <br/>
-            <h4>Build a personalized dry eye relief plan. Get <br/>mydrops™ delivered to your door when you need it.</h4>
+            <h4>Personalized.</h4>
+            <h4>30% cheaper.</h4>
+            <h4>Delivered.</h4>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto top-buffer">
-          <p>Activate - to get your mydrops™</p>
+            <p>Activate - to get your mydrops™</p>
             <form action="thankyou.html">
               <div class="form-row">
                 <div class="col-12 col-md-3 mb-2 mb-md-0">
@@ -72,11 +78,15 @@
     <!-- Icons Grid -->
     <section class="features-icons bg-light text-center">
       <div class="container">
+        <p>It's Simple</p>
         <div class="row">
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-              <div class="features-icons-icon d-flex">
-                <i class="icon-layers m-auto text-primary"></i>
+              <div class="features-icons-icon d-flex"> 
+                <div class="block m-auto">
+                  <div class='titanic titanic-eye '>
+                  </div>
+                </div>  
               </div>
               <h3>Your eyes. Your Drops.</h3>
               <p class="lead mb-0">The mydrops™ profile makes it easy. Your responses fuel the drops we ship.</p> <a href="#">learn more</a>
@@ -84,8 +94,11 @@
           </div>
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-              <div class="features-icons-icon d-flex">
-                <i class="icon-layers m-auto text-primary"></i>
+              <div class="features-icons-icon d-flex"> 
+                <div class="block m-auto">
+                  <div class='titanic titanic-expensive '>
+                  </div>
+                </div>  
               </div>
               <h3>Save every time.</h3>
               <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
@@ -93,8 +106,11 @@
           </div>
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-              <div class="features-icons-icon d-flex">
-                <i class="icon-check m-auto text-primary"></i>
+              <div class="features-icons-icon d-flex"> 
+                <div class="block m-auto">
+                  <div class='titanic titanic-shipped '>
+                  </div>
+                </div>  
               </div>
               <h3>You're in control.</h3>
               <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
@@ -102,33 +118,43 @@
           </div>
         </div>
       </div>
+      <script>
+        var titanic = new Titanic({
+          autoplay:true,
+          click: true
+        })
+      </script>
+      </div>
     </section>
 
-    <!-- Image Showcases -->
-    <section class="showcase">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters">
 
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-eye-profile.png');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Your eyes. Your drops.</h2>
-            <p class="lead mb-0">WLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
-            <br/>
-            <button class="btn btn-block btn-lg btn-primary">Take the free assessment</button>
+    <section class="product text-center">
+      <div class="container">
+        <h1>What's different?</h1>
+      </div>
+    </section>
+
+   <!-- Call to Action -->
+    <section class="call-to-action text-black text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h2 class="mb-4">Take care of my eyes.</h2>
           </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-eye-blue.png');"></div>
-          <div class="col-lg-6 my-auto showcase-text">
-            <h2>Updated For Bootstrap 4</h2>
-            <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-eye-orange.png');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Easy to Use &amp; Customize</h2>
-            <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <form action="thankyou.html">
+              <div class="form-row">
+                <div class="col-12 col-md-3 mb-2 mb-md-0">
+                  <input type="name" class="form-control form-control-lg" placeholder="name">
+                </div>
+                <div class="col-12 col-md-5 mb-2 mb-md-0">
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+                </div>
+                <div class="col-12 col-md-4">
+                  <button type="submit" class="btn btn-block btn-lg btn-primary">Get mydrops™</button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>

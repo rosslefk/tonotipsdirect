@@ -10,11 +10,14 @@ h5,
 h6 {
   font-family: 'Merriweather', serif;
   font-weight: 800px;
-  color:#5fc1a6;
 }
 
 h4{
   font-size: 18px
+}
+
+header{
+  color:#5fc1a6;
 }
 header.masthead {
   position: relative;
@@ -66,7 +69,7 @@ header.masthead .valueprop {
 @media (min-width: 800px) {
   header.masthead {
     padding-top: 12rem;
-    padding-bottom: 4rem;
+    padding-bottom:4rem;
     background: url("../img/blue_scene.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -78,6 +81,15 @@ header.masthead .valueprop {
   }
   header.masthead .top-buffer { 
   margin-top: 8rem;
+  }
+  .product {
+    padding-top: 5rem;
+    padding-bottom: 35rem;
+    background: url("../img/product-mockup.png") no-repeat left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
@@ -94,7 +106,6 @@ header.masthead .valueprop {
   .showcase .showcase-text {
     padding: 7rem;
   }
-}
 
 .features-icons {
   background-color:#e6e6e6;
@@ -138,8 +149,7 @@ header.masthead .valueprop {
 
 .call-to-action {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-color: #FFFFFF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -161,4 +171,18 @@ header.masthead .valueprop {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.titanic {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+
+
+  /*Decoration for the presentation only, remove it when using on your own*/
+  padding: 20px;
+}
+.titanic path {
+  fill: #249795;
+  stroke: #249795;
 }
