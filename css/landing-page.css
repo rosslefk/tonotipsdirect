@@ -17,7 +17,7 @@ h4{
 }
 
 header{
-  color:#5fc1a6;
+  color:#6fa3c6;
 }
 header.masthead {
   position: relative;
@@ -53,7 +53,7 @@ header.masthead .valueprop {
 
     padding-top: 8rem;
     padding-bottom: 5rem;
-    background: url("../img/blue_phone.png") no-repeat center top;
+    background: url("../img/blue_phone2.png") no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -64,13 +64,38 @@ header.masthead .valueprop {
   }
   header.masthead .top-buffer { 
   margin-top: 3rem;
-}
+  }
+  .features-icons {
+  background-color:#e6e6e6;
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+  } 
+  .product {
+  padding-top: 5rem;
+  padding-bottom: 20rem;
+  background: url("../img/product-mockup.png") no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  .call-to-action {
+  position: relative;
+  background-color: #FFFFFF;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  }
 
+}
 @media (min-width: 800px) {
   header.masthead {
     padding-top: 12rem;
     padding-bottom:4rem;
-    background: url("../img/blue_scene.png") no-repeat center center;
+    background: url("../img/blue_scene2.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
